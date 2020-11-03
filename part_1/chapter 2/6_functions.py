@@ -23,3 +23,7 @@ def function_3(a,b):
     print(a*b)
 
 function_3(4,5)
+
+fn1 = lambda x: x**3
+
+print(fn1(3))  
