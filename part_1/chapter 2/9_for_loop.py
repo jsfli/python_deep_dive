@@ -36,3 +36,15 @@ for i in range(5):
         print('always run')
 
     print(i)
+
+s = 'hello'
+i = 0
+
+for c in s:
+    print(i, c)
+    i += 1
+
+str = 'hello'
+
+for i, c in enumerate(s):
+    print(i,c)
